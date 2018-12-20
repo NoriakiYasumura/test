@@ -1,0 +1,55 @@
+◇まずはマスターに登録してみる
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+＜ログインする＞
+
+＜ローカルリポジトリ？を作る＞
+・左側にある「Create a New Repository」をクリック
+・Name(レポジトリ名)、Description（説明）を記入。Local Pathはデスクトップのローカル環境。
+Git lgnoreは使用言語指定？　Licenceはnoneでいいだろう
+
+＜ローカルリポジトリ？にフォルダを追加＞
+・Local Pathのフォルダの中に、にファイルや画像を入れる。
+
+＜ローカルリポジトリ？にコミットする＞
+・Discriptionにコメントを入力し、Commit to masterボタンを押す
+
+＜GitHubのリポジトリーと同期し、変更を反映する＞
+・画面右上にあるPublish Repositoryを実行
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+◇ブランチを作り、こみっとして、プルリク出して、マージ（githubに登録すること？）する
+
+＜ブランチを作る＞
+・ブランチを作りたいローカルリポジトリを選択
+・左上にある「枝分かれアイコン」をクリック
+・ブランチ名を入力し、「create new branch」ボタンを押す
+・「枝分かれアイコン」の右側プルダウンからブランチが選択可能になったので、切り替える
+
+＜branchesを編集？、プルリクエストを送る＞
+・ブランチを編集する？
+・「publish(1回目)」「sync(2回目以降)」ボタンを押したら、リモートリポジトリに編集が反映される？
+・GitHub Desktopの右上にある「pull request」をクリック。
+内容入力後に「send pull request」を押す
+----＞「pull request created」と出たら良い
+
+＜GitHubのWebサイト上で、プルリクエストをマージをする＞
+・GitHubのWebサイトへ移動する
+・GitHubのWebサイトで、「Marge pull request」する
+・「Pull request」のタブに、先ほどPullしたリクエストが来ているので、クリックする。
+・「Marge pull request」ボタンを押すと確認画面が出るので、コメントを入力して「Confirm marge」を押す。
+・「Pull request successfully marged」と表示されれば、マージ完了
+
+＜GitHub のリモートリポジトリのマージ結果を、ローカルリポジトリへ反映する＞
+・GitHub Desktopのmaster上で「Sync」を押して、変更をローカル側に取り込む
+・要らないブランチを削除する
+
+\\\\\\\\\\\\\\\\\\\\\\\\\＜参照URL＞\\\\\\\\\\\\\\\\\\\\\\\\\\
+https://qiita.com/hoshimado/items/6f852810bdd284b74ed1　　　　　　 　　　　　＞＞前半
+https://employment.en-japan.com/engineerhub/entry/2017/01/31/110000　　　＞＞後半
+https://qiita.com/kwgch/items/98bbaae8e9f40a9548e0　　　　　　　　　　　　　　＞＞要らないブランチを削除する
+\\\\\\\\\\\\\\\\\\\\\\\\\\＜その他参考URL>\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+https://qiita.com/RINDO/items/b7fac50289e9d5046ab9
+http://am1tanaka.hatenablog.com/entry/2015/11/06/130120#2-%E4%BD%9C%E6%A5%AD%E7%94%A8%E3%81%AE%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81%E3%82%92%E4%BD%9C%E6%88%90
+
+
